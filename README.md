@@ -13,7 +13,7 @@ git clone https://github.com/wide-vsix/public_keys
 ```
 mkdir /home/vsix/.ssh
 ln -s /home/vsix/public_keys/authorized_keys /home/vsix/.ssh/authorized_keys
-chmod 600 /home/public_keys/authorized_keys
+chmod 600 /home/vsix/public_keys/authorized_keys
 ```
 
 3. set crontab
